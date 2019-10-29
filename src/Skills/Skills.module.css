@@ -1,0 +1,142 @@
+.skills{
+
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQq2GTPHgZfQP2x6KrFIkGdiUpaI4JkUIuHumXakNX5LNuihgQY");*/
+    background-color:#EADFFA;
+    /*background-color: rgba(56,53,57,1)*/
+position: relative;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.skillsWrapper{
+    color: black;
+    font-family:"Times New Roman";
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 17px;
+    width: 100%;
+}
+.skill{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+width: 75px;
+    height: 75px;
+    /*background-color: rgba(13,38,57,1);*/
+    background-color: black;
+    opacity: 1;
+    border-radius: 50%;
+    margin-bottom: 45px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.description {
+    text-align: center;
+font-family: Noto Sans,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: 1.8;
+    box-sizing: border-box;
+
+}
+.line{
+    width: 65px;
+    height: 1px;
+    background-color:rgba(0, 245, 255, 1);;
+    margin: -10px 0 30px;
+}
+.headerTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skillTitle{
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 15px;
+    font-size: 19px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.icon img {
+margin-top: 13px;
+    width: 90%;
+    transform: rotate(-45deg);
+
+
+}
+@media screen and (max-width: 1128px) {
+    .skillsWrapper{
+        flex-direction: column;
+       align-items: center;
+    }
+}
+
+@media screen and (max-width: 1128px) {
+    .skill{
+        width: 500px;
+    }
+    .description{
+      margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .skill{
+        width: 100%;
+    }
+}
+
+/*.skills img {*/
+/*    width: 80px;*/
+/*    height: 60px;*/
+/*    margin-top: 20px;*/
+/*    float: right;*/
+/*    border: 10px solid white;*/
+/*    margin-bottom: 20px;*/
+/*    background-color: white;*/
+/*}*/
+/*.column {*/
+/*    -webkit-column-width: 200px;*/
+/*    -moz-column-width: 200px;*/
+/*    column-width: 200px;*/
+/*    -webkit-column-count: 3;*/
+/*    -moz-column-count: 3;*/
+/*    column-count: 3;*/
+/*    -webkit-column-gap: 30px;*/
+/*    -moz-column-gap: 30px;*/
+/*    column-gap: 30px;*/
+/*    -webkit-column-rule: 1px solid #ccc;*/
+/*    -moz-column-rule: 1px solid #ccc;*/
+/*    column-rule: 1px solid #ccc;*/
+/*    font-size: 20px;*/
+/*    font-family: "Times New Roman";*/
+
+/*}*/

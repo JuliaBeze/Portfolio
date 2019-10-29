@@ -1,26 +1,56 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import Header from "./Header/Header";
+import Main from "./Main/Main";
+import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
+import Contacts from "./Contacts/Contacts";
+import Footer from "./Footer/Footer";
+import Particles from "react-particles-js";
+import TodoList from "./assets/image/TodoList.jpg";
+import SocialNetwork from "./assets/image/SocialNetwork.jpg";
+import Counter from "./assets/image/Counter.jpg";
+
+const particlesOpt = {
+    particles: {
+        number:{
+            value:150,
+            density: {
+                enable:true,
+                value_area: 800
+            }
+        }
+    }
 }
+
+class App extends React.Component {
+
+
+
+    render() {
+        return (
+
+            <div className="App">
+                <Particles className = "particles" params = {particlesOpt}/>
+                <div className="portfolio">
+                    <Header/>
+                    <Main/>
+                    <Skills/>
+                    <Projects />
+                    <Contacts/>
+                    <Footer/>
+                </div>
+
+
+
+            </div>
+
+        )
+
+    }
+
+}
+
 
 export default App;
