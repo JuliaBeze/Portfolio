@@ -16,7 +16,8 @@ class Project extends React.Component {
         return (
             <div className={styles.project}>
                     <div className={styles.projectImg} style={this.props.style}>
-                        <a className={styles.show} href="">Watch</a>
+                        <a className={styles.show} href="https://github.com/JuliaBeze?tab=repositories">Watch</a>
+
                     </div>
                         <span className={styles.projectTitle}> {this.props.title}</span>
                         <span className={styles.description}> Description</span>

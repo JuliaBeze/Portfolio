@@ -30,8 +30,15 @@ position: relative;
     height: 40px;
     border: 1px black solid;
     border-radius: 50%;
+}
 
-
+.copyRight{
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+}
+.socialIcon:hover {
+    transform: rotate(360deg);
+    transition: 500ms;
 }
 .socialIcon img {
     width: 100%;

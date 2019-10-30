@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Skills.module.css';
-import html from './../images/html.png';
+import html from '../assets/image/html.png';
 import {Fade} from "react-reveal";
 
 class Skills extends React.Component {
@@ -20,14 +20,14 @@ class Skills extends React.Component {
                                     {/*<img src={html}/>*/}
                                 </div>
                                 <h3 className={styles.skillTitle}> HTML/CSS</h3>
-                                <span className={styles.description}> Description</span>
+                                {/*<span className={styles.description}> Description</span>*/}
                             </div>
                             <div className={styles.skill}>
                                 <div className={styles.icon}>
                                     <img src="http://weblab.ua/wp-content/uploads/2017/08/react-learning.png"/>
                                 </div>
                                 <h3 className={styles.skillTitle}> Redux/redux </h3>
-                                <span className={styles.description}> Description</span>
+                                {/*<span className={styles.description}></span>*/}
 
                             </div>
 
@@ -36,7 +36,7 @@ class Skills extends React.Component {
                                     <img src=""/>
                                 </div>
                                 <h3 className={styles.skillTitle}> JavaScript </h3>
-                                <span className={styles.description}> Description</span>
+                                {/*<span className={styles.description}> Description</span>*/}
                             </div>
 
 

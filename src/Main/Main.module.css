@@ -31,9 +31,9 @@
     z-index: 1;
 }
 .photo:hover{
-    transform: scale(1.1,1.1);
-    transition: 500ms;
-}
+     transform: scale(1.1,1.1);
+     transition: 500ms;
+ }
 
 .photo:before{
     content:"";

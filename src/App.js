@@ -38,7 +38,7 @@ class App extends React.Component {
                     <Main/>
                     <Skills/>
                     <Projects />
-                    <Contacts/>
+                    {/*<Contacts/>*/}
                     <Footer/>
                 </div>
 
