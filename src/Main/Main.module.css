@@ -1,30 +1,34 @@
 
 .main {
+
+    font-family: "Rubik","Arial",sans-serif;
+   height: 95vh;
     display: flex;
     justify-content: center;
-    background: url("https://datawalk.com/wp-content/uploads/2018/06/4.png");
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%;
-    opacity: 0.80;
-    box-shadow: 0 0 8px 8px white inset;
-    font-stretch: ultra-condensed;
-    /*"GABRIOLA"*/
+    /*background: url("https://datawalk.com/wp-content/uploads/2018/06/4.png");*/
     font-weight: bold;
-    height: 100vh;
+    background-color:#191a1d;
+    -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+
+
+
 }
 
 .container {
     width: 80%;
     display: flex;
     justify-content: space-around;
+    top: 0;
+    left: 0;
+    z-index: 800;
 }
 
 .photo img {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    margin-top: 110px;
+    margin-top: 160px;
     position: relative;
     transform: scale(1);
     transition: 500ms;
@@ -38,45 +42,45 @@
 .photo:before{
     content:"";
     position: absolute;
-    width: 240px;
-    height: 240px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
-    border: 3px solid rgba(0, 245, 255, 1);
-    top: 95px;
-    z-index: -1;
+    background-color: black;
+    top: 130px;
+
 }
 .greeting {
+    font-family: "Rubik",sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-weight: 300;
     color: white;
-    margin-top: 200px;
+    margin-top: 260px;
     margin-left: 370px;
+    font-size: 23px;
 }
 
-.greeting span:nth-child(1){
-    font-stretch: normal;
-    line-height: 1.2;
-    letter-spacing: 5px;
-    font-family:Montserrat, sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-}
+/*.greeting span:nth-child(1){*/
+/*    font-stretch: normal;*/
+/*    line-height: 1.2;*/
+/*    letter-spacing: 5px;*/
+/*    font-family:Montserrat, sans-serif;*/
+/*    font-weight: 800;*/
+/*}*/
 .greeting span:nth-child(2),
 .greeting span:nth-child(2) span {
-    font-weight: 300;
-    font-stretch: normal;
+    font-weight: 400;
     font-size: 50px;
-    font-family: 'Oswald', sans-serif;
     position: relative;
 }
 
 .greeting span:nth-child(2) span:before {
     content: "";
     position: absolute;
-    width: 215px;
-    height: 17px;
-    background-color: rgba(0, 245, 255, 1);
+    width: 240px;
+    height: 13px;
+    background-color: black;
     bottom: 0px;
     z-index: -1;
 }
@@ -96,18 +100,14 @@
     }
     .greeting span:nth-child(1){
         font-size: 10px;
-        display: flex;
-        flex-direction: row;
+
     }
     .greeting span:nth-child(2) span {
         font-size: 20px;
-        display: flex;
-        flex-direction: row;
 
     }
     .greeting span:nth-child(2) span:before {
-    display: flex;
-        flex-direction: row;
+
     }
 
 

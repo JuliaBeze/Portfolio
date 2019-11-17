@@ -32,16 +32,19 @@ class App extends React.Component {
         return (
 
             <div className="App">
-                <Particles className = "particles" params = {particlesOpt}/>
+                {/*<Particles className = "particles" params = {particlesOpt}/>*/}
                 <div className="portfolio">
+
                     <Header/>
                     <Main/>
+                    <div className="portfolio1">
+
                     <Skills/>
                     <Projects />
-                    {/*<Contacts/>*/}
+                    <Contacts/>
                     <Footer/>
                 </div>
-
+                </div>
 
 
             </div>

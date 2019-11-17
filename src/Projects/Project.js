@@ -8,7 +8,9 @@ import SocialNetwork from './../assets/image/SocialNetwork.jpg'
 
 class Project extends React.Component {
 
-
+state ={
+    description: ""
+}
 
 
     render() {
@@ -20,7 +22,7 @@ class Project extends React.Component {
 
                     </div>
                         <span className={styles.projectTitle}> {this.props.title}</span>
-                        <span className={styles.description}> Description</span>
+                        <span className={styles.description}>{this.props.description}</span>
                     </div>
 
         )

@@ -3,16 +3,20 @@
 
 }
 
-.particles{
-  position: fixed!important;
-  top:0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-opacity: 0.4;
-}
+/*.particles{*/
+/*  position: fixed!important;*/
+/*  top:0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*opacity: 0.4;*/
+/*}*/
 
 .portfolio{
-    background-color: black;
+  background: white;
+
+}
+.portfolio1{
+  background: #f6f6f6;
 
 }

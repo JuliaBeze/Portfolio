@@ -1,13 +1,12 @@
 .footer {
-    /*background-color:rgba(56,53,57,1);*/
-    background-color: rgba(13,38,57,1);
+    background-color: #101114;
     display: flex;
     justify-content: center;
-    font-family: Montserrat,sans-serif;
-    font-size: 18px;
-color: white;
-position: relative;
+    position: relative;
     height: 150px;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 16px;
+    color: #5e5e5e;
 }
 
 .container {
@@ -15,46 +14,48 @@ position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 0;
-    margin-top: -55px;
-}
-
-.socialBlock {
-    display: flex;
-    justify-content: space-between;
-    width: 400px;
+    padding: 50px 0;
 
 }
-.socialIcon{
-    width: 40px;
-    height: 40px;
-    border: 1px black solid;
-    border-radius: 50%;
-}
+
+/*.socialBlock {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    width: 400px;*/
+
+/*}*/
+/*.socialIcon{*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    border: 1px black solid;*/
+/*    border-radius: 50%;*/
+/*}*/
 
 .copyRight{
-    font-family: Montserrat,sans-serif;
-    font-size: 12px;
+    font-family: "Rubik","Arial",sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #5e5e5e;
 }
-.socialIcon:hover {
-    transform: rotate(360deg);
-    transition: 500ms;
-}
-.socialIcon img {
-    width: 100%;
-}
-@media screen and (max-width: 626px) {
-    .socialBlock{
-        width: 100%;
-    }
-}
+/*.socialIcon:hover {*/
+/*    transform: rotate(360deg);*/
+/*    transition: 500ms;*/
+/*}*/
+/*.socialIcon img {*/
+/*    width: 100%;*/
+/*}*/
+/*@media screen and (max-width: 626px) {*/
+/*    .socialBlock{*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 
-@media screen and (max-width: 340px) {
-    .socialIcon {
-        width: 30px;
-        height: 30px;
-    }
-}
+/*@media screen and (max-width: 340px) {*/
+/*    .socialIcon {*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*    }*/
+/*}*/
 /*@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);*/
 /*.social {*/
 /*    text-align: center;*/

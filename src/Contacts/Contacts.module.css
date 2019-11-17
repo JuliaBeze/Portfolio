@@ -6,14 +6,25 @@
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 30px;
-    font-family:Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: black;
     position: relative;
-    background-color:#EADFFA;
+    background-color: #191a1d;
     /*background-image: url("https://image.freepik.com/free-vector/_1035-7063.jpg");*/
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+}
 
+.header{
+    display: flex;
+  justify-content: left;
+    font-family: "Rubik","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
 }
 .container {
     width: 80%;
@@ -21,75 +32,53 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: -100px;
 
 
 }
-.form{
-    margin-top: 30px;
+
+.socialBlock {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    margin-left: 350px;
+    margin-top: -40px;
+
 
 }
-.button{
-    width: 120px;
+.socialIcon{
+    width: 40px;
     height: 40px;
-border: none;
-    align-self: center;
-    font-weight: 700;
-    font-size: 12px;
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0 0 15px;
-    font-family: "Josefin Sans", sans-serif;
-    line-height: 1.2;
-    font-weight: 700;
-    letter-spacing: 1px;
-    background-color: transparent;
-    outline: none;
-}
-
-.line{
-    width: 65px;
-    height: 1px;
-    margin-top: 20px;
-    background-color:rgba(0, 245, 255, 1);;
-}
-.headerTitle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.formArea, .messageArea {
-    background: rgba(13, 38, 57, 1) !important;
-    border: 1px solid #4a4a4a;
-    font-size: 12px;
-    font-family: Noto Sans, sans-serif;
-    outline: none;
-    color: white;
-    padding: 10px;
-    line-height: 1.5;
-    font-weight: 400;
-    margin-bottom: 1.2rem;
-    opacity: 0.9;
-
+    margin-bottom: 10px;
 
 }
-.formArea{
-   height: calc(1.5em + .75em + 2px);
-    padding: .375rem .75rem;
+.socialIcon:hover {
+    transform: rotate(360deg);
+    transition: 500ms;
 }
-.messageArea{
-    min-height: 160px;
-    padding:15px;
-    color: white;
-}
-
-
-@media screen and (max-width: 626px) {
-.form{
+.socialIcon img {
     width: 100%;
 }
+@media screen and (max-width: 626px) {
+    .socialBlock{
+
+    }
 }
+
+@media screen and (max-width: 340px) {
+    .socialIcon {
+        width: 10%;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 630px) {
+    .header{
+        font-size: 26px;
+
+    }
+}
+

@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 .menuMain {
-    text-transform: capitalize;
-    font-stretch: normal;
-    line-height: 1.2;
-    letter-spacing: 3px;
-    /*font-family: 'Oswald', sans-serif;*/
-    font-family: Noto Sans,sans-serif;
+    /*line-height: 1.2;*/
+    /*letter-spacing: 3px;*/
     height: 40px;
-    background-color: rgba(13,38,57,1);
+    background-color:#191a1d;
     display: flex;
-    font-size: 17px;
+    /*font-size: 17px;*/
     opacity: 0.9;
     justify-content: center;
     position:fixed ;
     width: 100%;
     z-index: 2;
-
+    font-family: "Rubik","Arial",sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #5e5e5e;
 
 }
 
@@ -25,6 +24,12 @@
     justify-content:flex-end;
     align-items: center;
 }
+
+
+
+
+
+
 
 
 

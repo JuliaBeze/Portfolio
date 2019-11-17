@@ -9,10 +9,8 @@ class Skills extends React.Component {
             <div className={styles.skills}>
                 <Fade bottom>
                     <div className={styles.container}>
-                        <div className={styles.headerTitle}>
-                            <h2 className={styles.blockTitle}> My skills</h2>
+                            <h2 className={styles.blockTitle}> </h2>
                             <div className={styles.line}></div>
-                        </div>
 
                         <div className={styles.skillsWrapper}>
                             <div className={styles.skill}>
@@ -20,23 +18,19 @@ class Skills extends React.Component {
                                     {/*<img src={html}/>*/}
                                 </div>
                                 <h3 className={styles.skillTitle}> HTML/CSS</h3>
-                                {/*<span className={styles.description}> Description</span>*/}
+
                             </div>
                             <div className={styles.skill}>
                                 <div className={styles.icon}>
-                                    <img src="http://weblab.ua/wp-content/uploads/2017/08/react-learning.png"/>
+                                    {/*<img src="http://weblab.ua/wp-content/uploads/2017/08/react-learning.png"/>*/}
                                 </div>
-                                <h3 className={styles.skillTitle}> Redux/redux </h3>
-                                {/*<span className={styles.description}></span>*/}
-
+                                <h3 className={styles.skillTitle}> React/redux </h3>
                             </div>
-
                             <div className={styles.skill}>
                                 <div className={styles.icon}>
-                                    <img src=""/>
+                                    {/*<img src=""/>*/}
                                 </div>
                                 <h3 className={styles.skillTitle}> JavaScript </h3>
-                                {/*<span className={styles.description}> Description</span>*/}
                             </div>
 
 
