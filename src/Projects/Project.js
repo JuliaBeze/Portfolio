@@ -8,19 +8,17 @@ import SocialNetwork from './../assets/image/SocialNetwork.jpg'
 
 class Project extends React.Component {
 
-state ={
-    description: ""
-}
 
 
     render() {
-
+debugger
         return (
             <div className={styles.project}>
                     <div className={styles.projectImg} style={this.props.style}>
-                        <a className={styles.show} href="https://github.com/JuliaBeze?tab=repositories">Watch</a>
+                <a className={styles.show} href={this.props.url}>Watch</a>
 
-                    </div>
+            </div>
+
                         <span className={styles.projectTitle}> {this.props.title}</span>
                         <span className={styles.description}>{this.props.description}</span>
                     </div>

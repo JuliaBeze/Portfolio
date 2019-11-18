@@ -1,6 +1,5 @@
 
 .projects{
-    /*text-transform: capitalize;*/
     line-height: 1.2;
     letter-spacing: 2px;
     font-weight: 700;
@@ -8,13 +7,10 @@
     color: black;
     min-height: 140vh;
     background: #f6f6f6;
-    /*background-color:#EADFFA;*/
-    /*background-color: rgba(31,31,32,1);*/
     display: flex;
     justify-content: center;
     position: relative;
-    -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
-    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+
 
 }
 .container {
@@ -101,9 +97,10 @@
     content: "";
     position: absolute;
     width: 60%;
-    height: 10px;
+    height: 5px;
     max-width: 190px;
-    background-color:rgba(0, 245, 255, 1);
+    background-color:#191a1d;
+    /*background-color:rgba(0, 245, 255, 1);*/
     bottom: 0;
     z-index: -1;
     transition:0.3s ;

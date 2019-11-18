@@ -17,14 +17,14 @@ class Skills extends React.Component {
                                 <div className={styles.icon}>
                                     {/*<img src={html}/>*/}
                                 </div>
-                                <h3 className={styles.skillTitle}> HTML/CSS</h3>
+                                <h3 className={styles.skillTitle}>React/redux</h3>
 
                             </div>
                             <div className={styles.skill}>
                                 <div className={styles.icon}>
                                     {/*<img src="http://weblab.ua/wp-content/uploads/2017/08/react-learning.png"/>*/}
                                 </div>
-                                <h3 className={styles.skillTitle}> React/redux </h3>
+                                <h3 className={styles.skillTitle}>  HTML/CSS </h3>
                             </div>
                             <div className={styles.skill}>
                                 <div className={styles.icon}>

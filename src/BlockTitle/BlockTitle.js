@@ -1,11 +1,5 @@
 import React from 'react';
 import styles from './BlockTitle.module.css';
-import Skills from "../Skills/Skills";
-import Projects from "../Projects/Projects";
-import Contacts from "../Contacts/Contacts";
-
-
-
 
 
 class BlockTitle extends React.Component {
@@ -16,13 +10,8 @@ class BlockTitle extends React.Component {
                     <div className={styles.headerTitle}>
                         <div className={styles.blockTitle}>  </div>
                         <div className={styles.line}> </div>
-
                     </div>
-
                 </div>
-
-
-
             </div>
 
         )

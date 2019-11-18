@@ -15,21 +15,7 @@
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
-
 }
-
-/*.socialBlock {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    width: 400px;*/
-
-/*}*/
-/*.socialIcon{*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    border: 1px black solid;*/
-/*    border-radius: 50%;*/
-/*}*/
 
 .copyRight{
     font-family: "Rubik","Arial",sans-serif;
@@ -37,41 +23,4 @@
     font-size: 16px;
     color: #5e5e5e;
 }
-/*.socialIcon:hover {*/
-/*    transform: rotate(360deg);*/
-/*    transition: 500ms;*/
-/*}*/
-/*.socialIcon img {*/
-/*    width: 100%;*/
-/*}*/
-/*@media screen and (max-width: 626px) {*/
-/*    .socialBlock{*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
 
-/*@media screen and (max-width: 340px) {*/
-/*    .socialIcon {*/
-/*        width: 30px;*/
-/*        height: 30px;*/
-/*    }*/
-/*}*/
-/*@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);*/
-/*.social {*/
-/*    text-align: center;*/
-/*    width: 48px;*/
-/*    height: 48px;*/
-/*    float: left;*/
-/*    background: #fff;*/
-/*    border: 1px solid #ccc;*/
-/*    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);*/
-/*    border-radius: 24px;*/
-/*    margin: 0 10px 10px 0;*/
-/*    padding: 6px;*/
-/*    color: #000;*/
-
-/*}*/
-
-
-/*.instagram a:hover {background: #3f729b; color: #fff;}*/
-/*.github a:hover {background: #191919; color: #fff;}*/

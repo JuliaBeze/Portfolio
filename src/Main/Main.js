@@ -9,8 +9,8 @@ class Main extends React.Component {
             <div className={styles.main}>
                 <div className={styles.container}>
                     <div className={styles.greeting}>
-                        <span></span>
-                        <span>Hey, I`m <span> Julia Beze.</span></span>
+                        <span>Hey,</span>
+                        <span> I`m <span> Julia Beze.</span></span>
                         <span>Front-end developer</span>
 
                     </div>

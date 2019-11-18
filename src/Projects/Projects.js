@@ -10,10 +10,9 @@ import {Fade} from "react-reveal";
 
 
 
+
+
 class Projects extends React.Component {
-
-
-
 
     render() {
 
@@ -41,22 +40,25 @@ class Projects extends React.Component {
                         <div className={styles.line}> </div>
                     </div>
                     <div className={styles.projectsWrapper}>
-                        <Project title={"TodoList"}
+                        <Project url={"https://github.com/JuliaBeze/TodoList"}
+                                  title={"TodoList"}
                                  style={todoListImg}
                                  description={"Redux, axios, api, thunk"}/>
-                        <Project title={"Social Network"}
+                        <Project url={"https://github.com/JuliaBeze/Social-Network"}
+                            title={"Social Network"}
                                  style={socialNetworkImg}
                                  description={"Function/class/container components, connect, " +
                                  "life cycle methods, axios, api, redux-thunk, redux-form, hoc, reselect "}/>
                         <Project title={"Counter"}
                                  style={counterImg}
                                  description={"Redux"}/>
-                        <Project title={"Notifications"}
+                        <Project url= {"https://github.com/JuliaBeze/TypeScript"}
+                            title={"Notifications"}
                                  style={notificationsImg}
-                                 description={"Local state, TypeScript"}/>
-                        <Project title={"Universal Login Page"}
+                                 description={"Local state, typeScript"}/>
+                        <Project title={"Universal login page"}
                                  style={loginPageImg}
-                                 description={"Local state,api"}/>
+                                 description={"Redux,api,axios"}/>
 
                     </div>
 

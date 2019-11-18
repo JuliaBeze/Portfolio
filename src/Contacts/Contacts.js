@@ -10,14 +10,14 @@ class Contacts extends React.Component {
         return (
             <div className={styles.contacts}>
                 <Fade bottom>
+
                     <div className={styles.container}>
                         <div className={styles.header}>
                             Let`s work together
                             <div className={styles.socialBlock}>
                                 <div className={styles.socialIcon}>
-                                    <a href="https://t.me/BezeJulia">
-                                        <img src={telegram}/>
-                                    </a>
+                                    <a href="https://t.me/BezeJulia"><img src={telegram}/></a>
+
                             </div>
                             <div className={styles.socialIcon}>
                                 <a href="https://www.linkedin.com/in/%D1%8E%D0%BB%D0%B8%D1%8F-%D0%B1%D0%B5%D0%B7%D0%B5-b12576197/" >
@@ -25,8 +25,9 @@ class Contacts extends React.Component {
                                 </a>
                             </div>
                             <div className={styles.socialIcon}>
-                                <a href="mailto:juliazhorova@rambler.ru" target="_blank">
+                                <a href="mailto:juliazhorova@rambler.ru">
                                     <img src={rambler}/>
+
                                 </a>
                             </div>
 
