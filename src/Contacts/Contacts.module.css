@@ -12,7 +12,7 @@
     background-color: #191a1d;
     /*background-image: url("https://image.freepik.com/free-vector/_1035-7063.jpg");*/
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 100px;
     -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
@@ -20,11 +20,12 @@
 
 .header{
     display: flex;
-  justify-content: left;
+    justify-content: space-between;
     font-family: "Rubik","Arial",sans-serif;
     font-weight: 500;
     font-size: 36px;
     color: white;
+    width: 60%;
 }
 .container {
     width: 80%;
@@ -40,8 +41,8 @@
 .socialBlock {
     display: flex;
     flex-direction: column;
-    margin-left: 350px;
-    margin-top: -40px;
+
+
 
 
 }

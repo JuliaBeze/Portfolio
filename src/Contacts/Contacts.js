@@ -13,7 +13,7 @@ class Contacts extends React.Component {
 
                     <div className={styles.container}>
                         <div className={styles.header}>
-                            Let`s work together
+                            <span className={styles.title}> Let`s work together</span>
                             <div className={styles.socialBlock}>
                                 <div className={styles.socialIcon}>
                                     <a href="https://t.me/BezeJulia"><img src={telegram}/></a>

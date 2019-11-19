@@ -10,9 +10,8 @@
     display: flex;
     justify-content: center;
     position: relative;
-
-
 }
+
 .container {
      width: 80%;
     display: flex;
@@ -25,15 +24,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
-/*.line{*/
-/*    width: 65px;*/
-/*    height: 1px;*/
-/*    margin-top: 20px;*/
-/*    background-color:rgba(0, 245, 255, 1);;*/
-/*}*/
 .projectsWrapper{
     display: flex;
     justify-content: space-between;
@@ -44,11 +36,9 @@
     color: #191a1d;
 }
 
-
 .project{
     margin-top: 35px;
     background-color: gainsboro;
-    color: white;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -69,13 +59,12 @@
     align-items: center;
     background-image: url("https://cdn.vox-cdn.com/thumbor/msZchpvmqFU7RQ0_M_8bqEvahIk=/0x0:5760x3840/1200x675/filters:focal(2420x1930:3340x2850)/cdn.vox-cdn.com/uploads/chorus_image/image/56578693/akrales_170907_1974_0026_02.1504880732.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .projectImg :before {
     content: "";
     position: absolute;
-    /*height: 300px;*/
-    /*width: 498px;*/
     background:black;
     opacity: 0.12;
 
@@ -84,6 +73,7 @@
     width: 150px;
     height: 50px;
     display: flex;
+    font-size: 20px;
     justify-content:center;
     align-items: center;
     text-decoration:none;
@@ -100,7 +90,6 @@
     height: 5px;
     max-width: 190px;
     background-color:#191a1d;
-    /*background-color:rgba(0, 245, 255, 1);*/
     bottom: 0;
     z-index: -1;
     transition:0.3s ;
@@ -127,7 +116,7 @@
 
 .description {
     font-family: "Times New Roman";
-    margin: 0 19px 10px;
+    margin: 0 2px 10px;
     font-size: 17px;
 
 }

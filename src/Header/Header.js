@@ -8,9 +8,9 @@ class Header extends React.Component {
         return (
             <div className={styles.menuMainImage}>
                 <div className={styles.menuMain}>
-
                     <div className={styles.container}>
                         <NavMenu/>
+
                     </div>
                 </div>
             </div>

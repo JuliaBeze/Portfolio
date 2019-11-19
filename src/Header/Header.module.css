@@ -48,3 +48,12 @@
 }
 .menuMain a, .menu-main a:visited {color:white ;}
 
+
+
+
+@media screen and (max-width: 550px) {
+    .container {
+        display: none;
+    }
+}
+
