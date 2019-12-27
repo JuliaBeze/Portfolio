@@ -6,7 +6,7 @@ class Main extends React.Component {
     render() {
         return (
 
-            <div className={styles.main}>
+            <div className={styles.main} id={'main'}>
                 <div className={styles.container}>
                     <div className={styles.greeting}>
                         <span>Hey,</span>

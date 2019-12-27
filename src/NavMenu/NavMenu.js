@@ -9,10 +9,10 @@ class NavMenu extends React.Component {
         return (
             <div className={styles.navMenu}>
                 <nav className={styles.navigation}>
-                    <a className={styles.link} href="#" >About</a>
-                    <a className={styles.link} href="#" >Skills</a>
-                    <a  className={styles.link} href="#" >Projects</a>
-                    <a  className={styles.link}href="#" >Contacts</a>
+                    <a className={styles.link} href="#main" >About</a>
+                    <a className={styles.link} href="#skills" >Skills</a>
+                    <a  className={styles.link} href="#project" >Projects</a>
+                    <a  className={styles.link}href="#contacts" >Contacts</a>
                 </nav>
             </div>
 

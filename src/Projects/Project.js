@@ -10,9 +10,12 @@ class Project extends React.Component {
     render() {
 
         return (
-            <div className={styles.project}>
+            <div className={styles.project} id={'project'}>
                 <div className={styles.projectImg} style={this.props.style}>
-                    <a className={styles.show} href={this.props.url}>View</a>
+                    <div>
+                        <a className={styles.show} href={this.props.url}>View</a>
+                    </div>
+
 
                 </div>
                 <div className={styles.projectTitle}>{this.props.title}

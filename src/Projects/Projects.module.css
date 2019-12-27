@@ -1,4 +1,3 @@
-
 .projects{
     line-height: 1.2;
     letter-spacing: 2px;
@@ -13,11 +12,11 @@
 }
 
 .container {
-     width: 80%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
- }
+}
 
 .headerTitle{
     display: flex;
@@ -72,21 +71,22 @@
 .show{
     width: 150px;
     height: 50px;
-    display: flex;
     font-size: 20px;
     justify-content:center;
     align-items: center;
-    text-decoration:none;
+    text-decoration: none;
     color: white;
     position: relative;
-  z-index: 1;
+    z-index: 1;
 
 }
 
 .show:after {
     content: "";
-    position: absolute;
-    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    position:absolute;
+    width: 100%;
     height: 5px;
     max-width: 190px;
     background-color:#191a1d;
@@ -102,7 +102,7 @@
 
 .show:hover::after {
     width: 100%;
-    height: 50px;
+    height: 25px;
 }
 .projectTitle{
     font-family: "Josefin Sans", sans-serif;
