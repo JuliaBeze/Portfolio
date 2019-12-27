@@ -24,7 +24,7 @@ class Contacts extends React.Component {
                                     </a>
                                 </div>
                                 <div className={styles.socialIcon}>
-                                    <a href="mailto:juliazhorova@rambler.ru">
+                                    <a href="mailto:juliabeze94@gmail.com">
                                         <img src={rambler}/>
                                     </a>
                                 </div>
