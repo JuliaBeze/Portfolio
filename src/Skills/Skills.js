@@ -21,7 +21,7 @@ class Skills extends React.Component {
                             <div className={styles.skill}>
                                 <div className={styles.icon}>
                                 </div>
-                                <h3 className={styles.skillTitle}>  HTML/CSS </h3>
+                                <h3 className={styles.skillTitle}>  HTML5/CSS3 </h3>
                             </div>
                             <div className={styles.skill}>
                                 <div className={styles.icon}>

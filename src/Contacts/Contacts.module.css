@@ -1,4 +1,3 @@
-
 .contacts {
     font-stretch: normal;
     line-height: 1.2;
@@ -11,8 +10,7 @@
     background-color: #191a1d;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-
+    padding-top: 150px;
 }
 
 .header{
@@ -38,7 +36,7 @@
 .socialBlock {
     display: flex;
     flex-direction: column;
-
+    padding-top: 5px;
 
 
 

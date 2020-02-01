@@ -49,8 +49,11 @@ class Projects extends React.Component {
                             <Project url={"https://github.com/JuliaBeze/Social-Network"}
                                      title={"Social Network"}
                                      style={socialNetworkImg}
-                                     description={"Function/class/container components, connect, " +
-                                     "life cycle methods, axios, api, redux-thunk, redux-form, hoc, reselect "}/>
+                                     description={"Redux, axios, api, thunk, redux-form, hoc "}/>
+                            <Project url={"https://github.com/JuliaBeze/counter-local-state"}
+                                     title={"Counter"}
+                                     style={counterImg}
+                                     description={"Local State"}/>
                             <Project url={"https://github.com/JuliaBeze/Counter"}
                                      title={"Counter"}
                                      style={counterImg}
@@ -58,7 +61,7 @@ class Projects extends React.Component {
                             <Project url={"https://github.com/JuliaBeze/TypeScript"}
                                      title={"Notifications"}
                                      style={notificationsImg}
-                                     description={"Local state, typeScript"}/>
+                                     description={"TypeScript"}/>
                             <Project  url={"https://github.com/JuliaBeze/CrazyDog"}
                                       title={"Crazy Dog"}
                                       style={crazyDogImg}

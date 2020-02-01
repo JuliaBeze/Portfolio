@@ -12,11 +12,9 @@ class Main extends React.Component {
                         <span>Hey,</span>
                         <span> I`m <span> Julia Beze.</span></span>
                         <span>Front-end developer</span>
-
                     </div>
                     <div className={styles.photo}>
                         <img src={foto}/>
-
                     </div>
                 </div>
             </div>
