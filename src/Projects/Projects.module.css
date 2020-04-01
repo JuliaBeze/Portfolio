@@ -114,6 +114,9 @@
     letter-spacing: 1px;
 }
 
+.projectsWrapper {
+    margin-bottom: 40px;
+}
 .description {
     font-family: "Times New Roman";
     margin: 0 2px 10px;
