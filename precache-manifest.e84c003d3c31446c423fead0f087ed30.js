@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45642be51b31e03492395075d34495ad",
+    "revision": "a7e4f358be3d1b50415f39dd6c295af5",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "4511f95f4e71c5066794",
+    "revision": "fe4b78c2e390625060fd",
     "url": "/Portfolio/static/css/main.40899a37.chunk.css"
   },
   {
-    "revision": "2a4403b7101e58058376",
-    "url": "/Portfolio/static/js/2.d9553065.chunk.js"
+    "revision": "d73af46a358a791cb153",
+    "url": "/Portfolio/static/js/2.3907f4c2.chunk.js"
   },
   {
-    "revision": "4511f95f4e71c5066794",
-    "url": "/Portfolio/static/js/main.e51b9cf6.chunk.js"
+    "revision": "fe4b78c2e390625060fd",
+    "url": "/Portfolio/static/js/main.d5591d8d.chunk.js"
   },
   {
     "revision": "cff465d1bd054ba6549e",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bf102725006dd38303529f08389d9859",
     "url": "/Portfolio/static/media/TodoList1.bf102725.jpg"
+  },
+  {
+    "revision": "c12b3bd8eb1c4cc8478f9955eb76e4f3",
+    "url": "/Portfolio/static/media/Weather.c12b3bd8.jpg"
   },
   {
     "revision": "e3b9168064eff61260b1f42e345fc85c",
