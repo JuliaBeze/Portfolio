@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.40899a37.chunk.css",
+    "main.css": "/Portfolio/static/css/main.02f31158.chunk.css",
     "main.js": "/Portfolio/static/js/main.d5591d8d.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.d5591d8d.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.f5ae772b.js",
@@ -8,9 +8,9 @@
     "static/js/2.3907f4c2.chunk.js": "/Portfolio/static/js/2.3907f4c2.chunk.js",
     "static/js/2.3907f4c2.chunk.js.map": "/Portfolio/static/js/2.3907f4c2.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.e84c003d3c31446c423fead0f087ed30.js": "/Portfolio/precache-manifest.e84c003d3c31446c423fead0f087ed30.js",
+    "precache-manifest.22613738eab5a1dc0cb55a45972cbe45.js": "/Portfolio/precache-manifest.22613738eab5a1dc0cb55a45972cbe45.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.40899a37.chunk.css.map": "/Portfolio/static/css/main.40899a37.chunk.css.map",
+    "static/css/main.02f31158.chunk.css.map": "/Portfolio/static/css/main.02f31158.chunk.css.map",
     "static/media/CrazyDog.jpg": "/Portfolio/static/media/CrazyDog.7216091a.jpg",
     "static/media/SocialNetwork1.jpg": "/Portfolio/static/media/SocialNetwork1.f8c6cd26.jpg",
     "static/media/TodoList1.jpg": "/Portfolio/static/media/TodoList1.bf102725.jpg",
