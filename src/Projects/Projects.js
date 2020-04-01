@@ -5,6 +5,7 @@ import TodoList1 from './../assets/image/TodoList1.jpg'
 import Notifications from './../assets/image/notifications.jpg'
 import SocialNetwork1 from './../assets/image/SocialNetwork1.jpg'
 import CrazyDog from './../assets/image/CrazyDog.jpg'
+import Weather from './../assets/image/Weather.jpg'
 import Project from "./Project";
 import {Fade} from "react-reveal";
 
@@ -31,7 +32,9 @@ class Projects extends React.Component {
         const crazyDogImg = {
             backgroundImage: `url(${CrazyDog}) `
         };
-
+        const weatherImg = {
+            backgroundImage: `url(${Weather}) `
+        };
 
         return (
             <div className={styles.projects}>
@@ -54,7 +57,7 @@ class Projects extends React.Component {
                                      title={"Counter"}
                                      style={counterImg}
                                      description={"Local State"}/>
-                            <Project url={"https://github.com/JuliaBeze/Counter"}
+                            <Project url={"https://github.com/JuliaBeze/counter_redux"}
                                      title={"Counter"}
                                      style={counterImg}
                                      description={"Redux"}/>
@@ -66,6 +69,10 @@ class Projects extends React.Component {
                                       title={"Crazy Dog"}
                                       style={crazyDogImg}
                                       description={"Local state"}/>
+                            <Project  url={"https://github.com/JuliaBeze/weather_app"}
+                                      title={"Weather"}
+                                      style={weatherImg}
+                                      description={"Local state, api"}/>
 
                         </div>
 
