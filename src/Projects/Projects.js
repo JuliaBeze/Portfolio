@@ -6,6 +6,7 @@ import Notifications from './../assets/image/notifications.jpg'
 import SocialNetwork1 from './../assets/image/SocialNetwork1.jpg'
 import CrazyDog from './../assets/image/CrazyDog.jpg'
 import Weather from './../assets/image/Weather.jpg'
+import Blog from '../assets/image/Blog.jpeg'
 import Project from "./Project";
 import {Fade} from "react-reveal";
 
@@ -35,6 +36,10 @@ class Projects extends React.Component {
         const weatherImg = {
             backgroundImage: `url(${Weather}) `
         };
+        const blogImg = {
+            backgroundImage: `url(${Blog}) `
+        };
+
 
         return (
             <div className={styles.projects}>
@@ -72,7 +77,11 @@ class Projects extends React.Component {
                             <Project  url={"https://github.com/JuliaBeze/weather_app"}
                                       title={"Weather"}
                                       style={weatherImg}
-                                      description={"Local state, api"}/>
+                                      description={"Local state, api, bootstrap"}/>
+                            <Project  url={"https://github.com/JuliaBeze/Blog"}
+                                      title={"Blog template"}
+                                      style={blogImg}
+                                      description={"Bootstrap"}/>
 
                         </div>
 
