@@ -9,7 +9,7 @@ class Footer extends React.Component {
                 <Fade clear>
                     <div className={styles.container}>
                         <span className={styles.blockTitle}>Julia Beze</span>
-                        <span className={styles.copyRight}>npm </span>
+                        <span className={styles.copyRight}> © 2020. All rights reserved </span>
                     </div>
                 </Fade>
             </div>
